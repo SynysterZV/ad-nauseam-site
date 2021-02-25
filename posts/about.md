@@ -7,5 +7,5 @@ date: '2021-02-23'
 
 Join here [![DiscBadge]][DiscLink]
 
-[DiscBadge]: https://img.shields.io/badge/Ad%20Nauseam-808080?style=plastic&logo=discord
+[DiscBadge]: https://img.shields.io/badge/Ad%20Nauseam-808080?style=flat&logo=discord
 [DiscLink]: https://discord.gg/gBPuTjwebT

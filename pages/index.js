@@ -22,7 +22,7 @@ export default function Home({ guildIcon }) {
 
 export async function getServerSideProps() {
 
-  const res = await fetch(`http://localhost:${process.env.PORT}/api/guildicon?guildID=806550877439131660`)
+  const res = await fetch(`https://localhost/api/guildicon?guildID=806550877439131660`)
   const json = await res.json()
 
   return {
