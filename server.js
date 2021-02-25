@@ -47,7 +47,7 @@ rpc.on('ready', () => {
         largeImageKey: "largeimage",
         largeImageText: "Sunshine",
         buttons: [
-          { label: "Join.", url: "https://adnauseam.xyz/gg" },
+          { label: "Join.", url: "https://adnauseam.xyz/redir/gg" },
         ],
         instance: false,
       });

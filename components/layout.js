@@ -14,7 +14,7 @@ library.add(fab, fas)
 
 const siteTitle = 'Ad Nauseam'
 
-export default function Layout({ children, home, title }) {
+export default function Layout({ children, home, title, icon }) {
     return (
         <>
             <Head>
@@ -26,18 +26,18 @@ export default function Layout({ children, home, title }) {
                 <meta property="og:title" content="Ad Nauseam" />
                 <meta property="og:description" content="Hippity hoppity your virginity is my property" />
                 <meta property="og:site_name" content="Ad Nauseam" />
-                <meta property="og:image" content="/images/profile.jpg" />
+                <meta property="og:image" content={icon} />
                 <meta property="og:image:height" content="640" />
                 <meta property="og:image:width" content="640" />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
 
             <Drawer />
+            <Widget />
             
             <div className={style.container}>
             <main>{children}</main>
             </div>
-            <Widget />
         </>
     )
 }

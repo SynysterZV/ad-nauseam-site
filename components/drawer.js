@@ -69,10 +69,12 @@ export default function TemporaryDrawer() {
               <ListItemIcon><CodeIcon /></ListItemIcon>
               <ListItemText primary="Home" />
           </ListItemLink>
+          <Divider component="li" variant="middle"/>
           <ListItemLink href="/about" key="About">
               <ListItemIcon><CodeIcon /></ListItemIcon>
               <ListItemText primary="About" />
           </ListItemLink>
+          <Divider component="li" variant="middle" />
           <ListItemLink href="/projects" key="Projects">
               <ListItemIcon><CodeIcon /></ListItemIcon>
               <ListItemText primary="Projects" />

@@ -5,6 +5,7 @@ date: '2021-02-23'
 
 **Ad Nauseam** is basically just a shitpost server.
 
-We are a toxic and unhealthy community that bullies you for being dumb!
+Join here [![DiscBadge]][DiscLink]
 
-Join [here](../redir/gg)
+[DiscBadge]: https://img.shields.io/badge/Ad%20Nauseam-808080?style=plastic&logo=discord
+[DiscLink]: https://discord.gg/gBPuTjwebT
