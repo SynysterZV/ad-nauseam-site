@@ -36,14 +36,12 @@
     padding-top: 1px;
   }
   
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .list span {
+    color: #9c9c9c
   }
-  
-  .listItem {
-    margin: 0 0 1.25rem;
+
+  .list svg {
+    color: #7a7a7a
   }
   
   .lightText {
@@ -60,6 +58,7 @@
   }
 
   .icon svg {
+    color: white;
     height: 50px;
     width: 50px;
     margin-right: 1rem;
@@ -67,5 +66,21 @@
   }
 
   .icon svg:hover {
+    color: lightgray;
+  }
+
+  .mediaIcon {
+    float:right;
+  }
+
+  .mediaIcon svg {
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+  .mediaIcon svg:hover {
     color: lightgray;
   }

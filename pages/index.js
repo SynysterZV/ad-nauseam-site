@@ -2,6 +2,7 @@ import Layout from '../components/layout'
 import Image from 'next/image'
 import style from '../components/layout.module.css'
 import utilStyle from '../styles/utils.module.css'
+import Drawer from '../components/drawer'
 
 
 export default function Home() {
