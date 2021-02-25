@@ -1,0 +1,48 @@
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 2rem auto 6rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .backToHome {
+    margin: 3rem 0 0;
+  }
+
+  .bottom {
+      margin: 5rem 0rem 0;
+      color: #99AAB5
+  }
+
+.navwrapper {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 100vh;
+}
+
+.nav {
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav a {
+  margin-top: 10px;
+  width: 11rem
+}
+
+.buttons button {
+  margin-right: 1rem
+}
+
+.buttons a {
+  margin-right: 1rem
+}

@@ -1,0 +1,16 @@
+html,
+body {
+    background-image: url('/images/texture.jpg');
+}
+
+a {
+    color: red;
+}
+
+#icon:hover {
+    color: lightgray;
+}
+
+pre {
+    color: gray;
+}
